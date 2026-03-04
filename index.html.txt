@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel Accounting Pro - Sistema Contabile Validato da CPA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#" class="logo">
+                    <span class="logo-icon">📊</span>
+                    <span class="logo-text">Excel Accounting Pro</span>
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="#features">Funzionalità</a></li>
+                    <li><a href="#pricing">Prezzi</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+                <a href="#pricing" class="btn btn-primary">Acquista Ora</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span>✓</span>
+                        <span>Validato da CPA in Quebec</span>
+                    </div>
+                    <h1 class="hero-title">
+                        Il Sistema Contabile che i <span class="highlight">Professionisti</span> Consigliano
+                    </h1>
+                    <p class="hero-subtitle">
+                        Finalmente un'alternativa seria a Sage 50 e QuickBooks. Zero abbonamenti mensili. Controllo totale dei tuoi dati.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#pricing" class="btn btn-large btn-primary">
+                            Inizia Ora — Da $197
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="excel-window">
+                        <div class="window-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                            <span>Excel Accounting Pro</span>
+                        </div>
+                        <div class="window-content">
+                            <div class="excel-sidebar">
+                                <div class="sidebar-item active">📊 Dashboard</div>
+                                <div class="sidebar-item">📋 Journal Entry</div>
+                                <div class="sidebar-item">📈 Reports</div>
+                            </div>
+                            <div class="excel-main">
+                                <div class="kpi-card">
+                                    <div>Revenue Q3</div>
+                                    <div class="kpi-value">$124,500</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Scegli la Tua Versione</h2>
+                <p>Zero abbonamenti, paghi una volta.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>BASE</h3>
+                    <div class="price">$197</div>
+                    <ul>
+                        <li>✓ Chart of Accounts</li>
+                        <li>✓ Journal Entry</li>
+                        <li>✓ Trial Balance</li>
+                        <li>✓ GST/QST Report</li>
+                    </ul>
+                    <a href="checkout.html?plan=base" class="btn btn-pricing">Acquista Base</a>
+                </div>
+                <div class="pricing-card popular">
+                    <div class="popular-badge">CONSIGLIATO DA CPA</div>
+                    <h3>PRO</h3>
+                    <div class="price">$397</div>
+                    <ul>
+                        <li>✓ Tutto della Base</li>
+                        <li>✓ Accounts Receivable</li>
+                        <li>✓ Accounts Payable</li>
+                        <li>✓ Multi-Company</li>
+                    </ul>
+                    <a href="checkout.html?plan=pro" class="btn btn-pricing btn-primary">Acquista Pro</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Excel Accounting Pro. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+</body>
+</html>
